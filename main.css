@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.logo {
+    display: flex;
+    padding-top: 5px;
+}
+
+.list {
+    display: flex;
+    justify-content: end;
+}
+
+.list li {
+    float: left;
+    /* حاولت اشيل هاي وابدلها بس ما زبطتت معي */
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.port h2 {
+    text-transform: uppercase;
+}
+
+.port p {
+    margin-bottom: 10px;
+    text-decoration: solid;
+}
+
+.port {
+    text-align: center;
+    background-color: bisque;
+}
+
+.port-item {
+    padding-right: 10px;
+    width: 33.33%;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-item img {
+    width: 100%;
+}
